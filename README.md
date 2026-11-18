@@ -2,7 +2,7 @@
 
 Reusable [Agent Skills](https://agentskills.io/) for coding agents. Install with the [skills CLI](https://skills.sh/); works with any agent that supports the format.
 
-[![skills.sh](https://img.shields.io/badge/skills.sh-OussamaHaddouche%2Fskills-black)](https://skills.sh/OussamaHaddouche/skills)
+![skills.sh](https://img.shields.io/badge/skills.sh-OussamaHaddouche%2Fskills-black)
 
 ## Install
 
@@ -15,6 +15,7 @@ One skill only:
 ```bash
 npx skills add OussamaHaddouche/skills@humanizer
 npx skills add OussamaHaddouche/skills@tutor-mode
+npx skills add OussamaHaddouche/skills@career-coach
 ```
 
 ## Skills
@@ -30,6 +31,12 @@ Reach for it when a draft feels generic, inflated, or oddly polite.
 Acts as a software engineering tutor and mentor while you keep doing the work. Guides, reviews, and scaffolds; picks how much help to give based on what you're stuck on. It won't edit your files unless you ask it to implement.
 
 Reach for it when you want explanation, review, or coaching instead of the agent shipping the change for you.
+
+### [career-coach](./career-coach/)
+
+Works on CVs, LinkedIn profiles, and portfolios. Digs for real achievements, shows what a recruiter or hiring manager would flag, and rewrites only what you can defend. No fake metrics, no "I led it" when you didn't.
+
+Reach for it when your bullets are task lists, your profile is vague, or you're lining materials up with a job posting.
 
 ## License
 
