@@ -13,20 +13,22 @@ npx skills add OussamaHaddouche/skills
 One skill:
 
 ```bash
-npx skills add OussamaHaddouche/skills@skill-name
+npx skills add OussamaHaddouche/skills@humanizer
 ```
 
 ## Skills
 
-Add each skill as a folder with a `SKILL.md`:
+| Skill | Description |
+|-------|-------------|
+| [humanizer](./humanizer/) | Strip AI writing tells so prose reads like a person wrote it |
+
+## Layout
 
 ```text
 skills/
-  my-skill/
+  humanizer/
     SKILL.md
-  another-skill/
-    SKILL.md
-    scripts/        # optional
+    references/
 ```
 
 ## License
