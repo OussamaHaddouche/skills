@@ -36,7 +36,7 @@ Reach for it when you want explanation, review, or coaching instead of the agent
 
 Works on CVs, LinkedIn profiles, and portfolios. Digs for real achievements, shows what a recruiter or hiring manager would flag, and rewrites only what you can defend. No fake metrics, no "I led it" when you didn't.
 
-Reach for it when your bullets are task lists, your profile is vague, or you're lining materials up with a job posting.
+Reach for it when your CV only lists duties, your LinkedIn is vague, or you need to match materials to a job posting—not for life advice or salary negotiation.
 
 ## License
 
