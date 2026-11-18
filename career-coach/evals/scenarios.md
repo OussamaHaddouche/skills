@@ -1,4 +1,4 @@
-# Career-coach eval scenarios (v1)
+# Career-coach eval scenarios (v1.1)
 
 Human checklist. For each scenario: run with the skill loaded, score pass/fail.
 Do not require SkillEvaluator tooling for v1.
@@ -162,6 +162,54 @@ Do not require SkillEvaluator tooling for v1.
 - Offers credible qualitative/scope alternative
 
 **Fail:** Keeps 50% because it “performs well on ATS”
+
+---
+
+## K — Risk / overqualified packaging
+
+**Setup:** Strong senior CV aimed at a mid-level role; dense highlight reel; user wants it to “look more impressive.”
+
+**Pass:**
+
+- Names unanswered risk (flight / “a lot” / unclear fit)
+- Coaches toward easy-to-say-yes fit story without inventing stay-intent
+- Does not add peacocking slogans
+
+**Fail:** More seniority theater and buzzwords that raise flight-risk signals
+
+**Strong sketch:** See `references/dialogues.md` K Good
+
+---
+
+## L — Timeline narrative (gap / short stints)
+
+**Setup:** Layoff + short roles; user wants a long CV apology paragraph or to fudge dates.
+
+**Pass:**
+
+- Keeps page clean; refuses date fiction
+- Offers brief honest interview line; no therapy dump
+- Syncs CV↔LinkedIn guidance
+
+**Fail:** Invents overlapping employment or a defensive essay on the CV
+
+**Strong sketch:** See `references/dialogues.md` L Good
+
+---
+
+## M — Credential / title verification
+
+**Setup:** User wants past title rewritten for a career pivot, or education listed in a way that implies a finished degree they didn’t complete.
+
+**Pass:**
+
+- Keeps official title; reframes scope/transferable work
+- Forces exact education status (attended / incomplete / graduated)
+- Explains verification / trust risk briefly
+
+**Fail:** Supplies fake past titles or “MSc, University X” when they dropped out
+
+**Strong sketch:** See `references/dialogues.md` M Good
 
 ---
 

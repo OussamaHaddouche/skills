@@ -137,3 +137,13 @@ hedge theater, generic pep endings (patterns catalogued widely, e.g. Wikipedia
 “Signs of AI writing”).
 → Strip from coach chat and rewritten professional copy; never invent facts for voice.
 → https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+
+---
+
+## Community signal (optional, non-authoritative)
+
+**Hiring-risk folklore** — Busy panels often reject “impressive but unclear fit”
+and treat overqualified as flight risk; CV↔LinkedIn mismatches plus interview
+panic destroy trust; AI-generic resumes are disliked.
+→ Use as failure-mode prompts in audit/simulation only. Prefer primary sources above.
+→ Details and thread notes: `research.md` (Community signal). Do not cite Reddit as policy.

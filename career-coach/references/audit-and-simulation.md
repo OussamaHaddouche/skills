@@ -57,6 +57,23 @@ Deeper read. Ask:
 Do not pretend to know every employer’s private bar. Simulate a *structured,
 good-faith* review informed by CIPD/OPM-style job-related criteria.
 
+### Risk lens (both rooms)
+
+Panels often **avoid risk** more than they crown the “best” CV. Ask what would
+make a busy reader hesitate to say yes:
+
+| Unanswered risk | Typical read |
+|-----------------|--------------|
+| Highlight reel, weak fit story | “Impressive but a lot / unclear how they land here” |
+| Overqualified vs target | Flight risk, not a compliment |
+| Date/title/education mismatches | Attention or honesty doubt |
+| Ownership inflation | Will collapse under probe |
+| Chaos signals (unclear scope, drama-heavy About) | Hard to manage |
+| Credential ambiguity | Verification / rescind risk |
+
+Prefer materials that are **easy to say yes to**: exact mess handled, scope,
+outcome, and why this role is a clean fit—without inventing calm they can’t defend.
+
 ## Simulation modes
 
 1. **Initial recruiter screen** — 30–60 second skim: headline/title stack,
@@ -65,13 +82,14 @@ good-faith* review informed by CIPD/OPM-style job-related criteria.
    gaps/questions for interview.
 3. **Technical or domain HM review** — substance of work, complexity, ownership.
 4. **Job-specific evaluation** — requires a JD; see `jd-fit.md`.
+5. **Risk / debrief simulation** — what unanswered questions would kill consensus.
 
 Output shape (keep short):
 
 ```text
 Lens: recruiter | HM | both
 What lands
-What creates doubt
+What creates doubt / unanswered risk
 What’s unclear / missing (unknown vs weak)
 Claims that need evidence
 Fix first (1–3)
@@ -87,5 +105,7 @@ Across CV, LinkedIn, portfolio, bio:
 - Seniority signals
 - Same project told with conflicting ownership
 - Skills claimed vs evidenced
+- Education wording (attended / completed / in progress)
 
-Flag conflicts before polishing prose.
+Flag conflicts before polishing prose. Prep a one-line interview answer when a
+fixable mismatch already reached humans.

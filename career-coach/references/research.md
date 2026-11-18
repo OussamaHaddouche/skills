@@ -64,18 +64,33 @@ without inventing facts or hardcoding a profession, market, or seniority.
 - UK/US: university careers guidance (CV vs resume naming, length, no photo/age)
 - Morocco / North Africa: thinner official documentation—treat as common-practice notes with certainty labels
 
+## Community signal (non-primary)
+
+r/careeradvice threads (2024–2026) used only as **hiring folklore / failure modes**,
+not as citations that override Yale/MIT/Greenhouse/etc.:
+
+- Debrief rooms often avoid risk; “safe pair of hands” beats highlight reel; overqualified ≈ flight risk
+- CV↔LinkedIn mismatches + interview panic destroy trust
+- Gaps/short stints: clean page, brief honest oral explanation; no date fiction
+- Credential/title ambiguity fails verification
+- AI-generic resume language is actively disliked
+- Cold response can mean wrong market packaging (same evidence, different buyer)
+
+Logged for maintainers; agents should prefer `library.md` primary sources at runtime.
+
 ## Adopted principles
 
 1. **Evidence over claims.** Accomplishment statements (PAR/ACE) and STAR stories beat duty lists.
 2. **Discovery before rewrite.** Many people cannot name their impact; ask before inventing polish.
 3. **Six-dimension Achievement Discovery Model (ADM)** — proposed methodology: Problem, Contribution, Judgment, Scope, Outcome, Evidence. Maps to PAR/ACE for CVs and STAR for interviews.
 4. **Evidence hierarchy.** Measured quantitative → measured scope → documented qualitative → verified delivery → contribution without outcome → intended → unsupported (remove/qualify).
-5. **Two evaluation lenses.** Recruiter/HR ≠ hiring manager; both matter.
+5. **Two evaluation lenses + risk.** Recruiter/HR ≠ hiring manager; both matter. Also: reduce unanswered risk so saying yes is easy.
 6. **Portable seniority axes.** Scope, Influence, Autonomy, Complexity, Outcomes—not company level labels as certification.
 7. **Asset system.** One achievement inventory → adapted for CV, LinkedIn, portfolio, interview.
 8. **Market-local conventions.** Never assume one country’s CV rules apply everywhere.
 9. **No ATS score theater.** Optimize parseability and honest keyword coverage; refuse universal scores.
-10. **Speech.** Coach like a sharp peer (tutor-mode); strip AI tells (humanizer); never invent facts to sound human.
+10. **Speech + anti–AI-slop assets.** Coach like a sharp peer; strip AI tells; drafts stay specific and human; never invent facts to sound human.
+11. **Verification-safe identity.** Exact education status; official titles; timeline honesty across assets.
 
 ## Disagreements and tensions
 
@@ -87,6 +102,8 @@ without inventing facts or hardcoding a profession, market, or seniority.
 | Greenhouse layout risks vs Lever sparse official layout docs | Cite Greenhouse for layout; Lever for file types/selectable text; label certainty |
 | Engineering frameworks vs non-eng users | Extract portable axes; domain packs are swappable |
 | Photo common in some Maghreb practice vs FR/UK/US anti-bias norms | Ask target market; do not universalize |
+| “Be impressive” vs risk-averse debriefs | Prefer clear fit + evidence; don’t peacock into flight-risk reads |
+| Community Reddit tips vs primary sources | Use Reddit as failure-mode signal only; keep library.md authoritative |
 
 ## Limitations
 
@@ -96,10 +113,11 @@ without inventing facts or hardcoding a profession, market, or seniority.
 - Selection research is employer-facing; candidate branding is inferred application.
 - LinkedIn ranking algorithms are not publicly documented—do not invent them.
 - The ADM is a design hypothesis grounded in PAR/STAR/impact frameworks, not an academic standard.
+- Reddit/community threads are anecdotal and selection-biased; never cite them as proof of employer policy.
 
 ## Design implications
 
 - One skill (`career-coach`), mode router, progressive references—not one file per buzzword.
 - Hard integrity + Speech rules in `SKILL.md`.
-- Human eval suite (scenarios A–J) tests questions, reasoning, and speech—not only pretty bullets.
+- Human eval suite (scenarios A–M) tests questions, reasoning, risk framing, timeline honesty, and speech—not only pretty bullets.
 - Synthetic fixtures only; no personal history of the skill author.

@@ -34,9 +34,9 @@ Reach for it when you want explanation, review, or coaching instead of the agent
 
 ### [career-coach](./career-coach/)
 
-Works on CVs, LinkedIn profiles, and portfolios. Digs for real achievements, shows what a recruiter or hiring manager would flag, and rewrites only what you can defend. No fake metrics, no "I led it" when you didn't.
+Works on CVs, LinkedIn profiles, and portfolios. Pulls real achievements out of vague bullets, flags what would worry a recruiter, and rewrites only what you can back up in an interview.
 
-Reach for it when your CV only lists duties, your LinkedIn is vague, or you need to match materials to a job posting—not for life advice or salary negotiation.
+Reach for it when your materials read like a duty list, your LinkedIn is mush, or you need to line them up with a job posting—not for life advice or salary negotiation.
 
 ## License
 
