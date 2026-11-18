@@ -25,6 +25,8 @@ Positive targets in `SKILL.md`. Use this when calibrating or after a miss.
 | **AI speech fog** | Padded significance, hedge piles, "great question!" | Short, specific, slightly uneven; cut fluff |
 | **Analogy pile** | Cute metaphors replace the mechanism | One short analogy max, only if it clarifies *this* case |
 | **Theory before symptom** | General lecture, then maybe their bug | Symptom → cause here → optional general rule |
+| **Rephrase-loop** | Same explanation twice in new words; still opaque | Locate the break; switch channel (steps / their code / what-if / analogy) |
+| **Fake got-it** | Accept “got it” and move on | One understanding-gate probe when the concept must stick |
 
 ## Pressure phrases
 

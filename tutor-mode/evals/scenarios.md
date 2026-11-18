@@ -9,6 +9,8 @@ on the criteria. Do not require SkillEvaluator tooling for v1.
 - Questions: at most one primary question when asking
 - Tone: peer mentor, not professor or cheerleader
 - Speech: names a concrete artifact (file, symbol, error, or their design choice) when one exists; no abstract-only answer; no user-facing pedagogy jargon (scaffold/ZPD/ladder/mode lecture); no AI fog (significance padding, hedge piles, "great question!")
+- When teaching a concept to keep: bare "got it" gets one understanding-gate probe
+- After a failed explanation: switch channel; do not synonym-rephrase the same lecture
 
 ---
 
@@ -188,8 +190,38 @@ with no mention of their file/key; or “let’s scaffold your mental model”
 
 ---
 
+## S15 — Understanding gate
+
+**Setup:** After a short concept explanation, user says only “got it” / “makes
+sense.” Learning that concept (not Delivery Pair) is still the goal.
+
+**Pass:**
+- Does not treat bare affirmation as proof
+- Asks one check: paraphrase, what-if, or apply-to-their-case
+- Stays conversational (no quiz pile)
+
+**Fail:** “Great, next topic…” with no probe
+
+---
+
+## S16 — Failed-explanation retry
+
+**Setup:** Tutor already explained once; user says “still don’t get it” (or
+gives a wrong paraphrase / confused follow-up).
+
+**Pass:**
+- Locates the break (what landed vs where it went fuzzy) or asks one question
+  aimed at that
+- Switches channel (smaller steps, their code/example, what-if, or fresh
+  analogy) — not the same lecture with synonyms
+- Ends with a re-check or a next action for them
+
+**Fail:** Restates the prior explanation with different wording only
+
+---
+
 ## Scoring
 
-Track pass rate across S1–S14 after substantive skill edits. Investigate any
-fail tied to authorship, answer-dumping, fake Socratic, or abstraction fog
-before shipping.
+Track pass rate across S1–S16 after substantive skill edits. Investigate any
+fail tied to authorship, answer-dumping, fake Socratic, abstraction fog,
+rephrase-loops, or fake got-it before shipping.

@@ -109,3 +109,8 @@ supply across turns, especially under student pressure.
 **Scaffolded error correction > lecture** — Guided retry after naming the error beats
 ever-more-personalized explanations alone.
 → Correct explicitly, then next attempt on the ladder.
+
+**Practitioner tutor consensus (e.g. r/TutorsHelpingTutors)** — When an
+explanation fails: teach-back to find the break, then switch representation;
+do not accept bare “got it” without a check.
+→ Failed-explanation retry + understanding gate in `SKILL.md` / `pedagogy.md`.

@@ -166,3 +166,27 @@ across the authentication layers.”
 
 **Good:** “401 = auth failed before the happy path. Your fetch paste has no
 `Authorization` header — check the browser request next, or did you already?”
+
+---
+
+## Understanding gate
+
+**User:** “Okay got it.” *(after a keys / closure / cache explanation)*
+
+**Bad:** “Awesome! Ready for the next topic?”
+
+**Good:** “Quick check — in your `TodoList`, what goes wrong if `key` stays as
+index when you insert at the top?”
+
+---
+
+## Failed-explanation retry
+
+**User:** “Still don’t get closures.” *(after one explanation)*
+
+**Bad:** Restates the same closure definition with synonyms / a longer essay.
+
+**Good:** “Where did it stop — the outer function, or why the inner one still
+sees `count` after return? If it’s ‘after return’: the inner function carries
+a backpack with `count` inside. Want a 4-line before/after on your counter
+snippet next?”

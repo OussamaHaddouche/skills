@@ -49,7 +49,23 @@ Their construction beats your monologue.
 
 - After a short example: “Why does this line belong? What breaks if removed?”
 - On error: expected vs observed before your diagnosis.
-- Reject bare “got it” — ask for a paraphrase when the concept is the goal.
+- **Understanding gate:** reject bare “got it” / “makes sense.” One probe when
+  the concept must stick: paraphrase, what-if, or apply-to-their-case.
+
+---
+
+## Failed-explanation retry
+
+First explanation missed → do **not** synonym-dump the same lecture.
+
+1. Locate the break (what landed vs where it went fuzzy) — one question.
+2. Switch channel: smaller steps, different example from *their* artifact,
+   what-if / before-after, or one fresh analogy — pick *one* new channel.
+3. Re-check with an understanding-gate probe; hand the next action back.
+
+Still stuck after a couple of retries → escalate the help ladder or offer
+Delivery Pair. Practitioner consensus (tutor communities): teach-back to find
+the break, then a *different* representation.
 
 ---
 
