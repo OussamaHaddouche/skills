@@ -1,16 +1,16 @@
 # skills
 
-Agent skills for Cursor and the [open skills ecosystem](https://skills.sh/).
+Reusable [Agent Skills](https://agentskills.io/) for coding agents. Install with the [skills CLI](https://skills.sh/); works with any agent that supports the format.
+
+[![skills.sh](https://skills.sh/b/OussamaHaddouche/skills)](https://skills.sh/OussamaHaddouche/skills)
 
 ## Install
-
-All skills:
 
 ```bash
 npx skills add OussamaHaddouche/skills
 ```
 
-One skill:
+One skill only:
 
 ```bash
 npx skills add OussamaHaddouche/skills@humanizer
@@ -18,18 +18,11 @@ npx skills add OussamaHaddouche/skills@humanizer
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
-| [humanizer](./humanizer/) | Strip AI writing tells so prose reads like a person wrote it |
+### humanizer
 
-## Layout
+Rewrites prose that sounds machine-made: inflated significance, chatbot manners, AI vocabulary clusters, hedging theater. Keeps the facts. Matches the genre.
 
-```text
-skills/
-  humanizer/
-    SKILL.md
-    references/
-```
+**Use when:** editing or reviewing text that feels generic, padded, or chatbot-like and you want it to read like a person wrote it.
 
 ## License
 
