@@ -56,8 +56,8 @@ related tells. Preserve meaning and facts. Match the genre's register.
    - Tone matches the genre
    - No chatbot manners, placeholders, or source-disclaimer theater
 8. Return the rewritten text, plus an optional brief change summary if the user
-   is learning the patterns.
-9. Do not mention this skill unless asked.
+   is learning the patterns. Keep the reply focused on the rewrite; skip process
+   narration about how the edit was done.
 
 For a full before/after walkthrough, see `references/example.md`.
 
