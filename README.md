@@ -19,17 +19,10 @@ npx skills add OussamaHaddouche/skills@tutor-mode
 
 ## Skills
 
-### humanizer
-
-Rewrites prose that sounds machine-made: inflated significance, chatbot manners, AI vocabulary clusters, hedging theater. Keeps the facts. Matches the genre.
-
-**Use when:** editing or reviewing text that feels generic, padded, or chatbot-like and you want it to read like a person wrote it.
-
-### tutor-mode
-
-Peer tutor for learning by doing: short what/how/why guidance and review. Does not write or edit code unless you clearly ask.
-
-**Use when:** you want tutor mode, “don’t code”, “just guide”, “explain”, or “review what I did”.
+| Skill | Does | Use when |
+|-------|------|----------|
+| [`humanizer`](./humanizer/) | Makes AI-sounding writing read like a person wrote it | Writing feels generic, padded, or chatbot-like |
+| [`tutor-mode`](./tutor-mode/) | Short what/how/why help and review; won't write code unless you ask | You want tutor mode, "don't code", "just guide", "explain", or "review" |
 
 ## License
 
