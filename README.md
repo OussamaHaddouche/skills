@@ -2,6 +2,8 @@
 
 Reusable [Agent Skills](https://agentskills.io/) for coding agents. Install with the [skills CLI](https://skills.sh/); works with any agent that supports the format.
 
+[![skills.sh](https://skills.sh/b/OussamaHaddouche/skills)](https://skills.sh/OussamaHaddouche/skills)
+
 ## Install
 
 ```bash
