@@ -1,9 +1,10 @@
 ---
 name: humanizer
-version: 1.0.0
+version: 1.1.0
 description: >-
   Remove AI writing tells from text. Use when editing or reviewing prose that
-  sounds generic, inflated, or chatbot-like so it reads as natural human writing.
+  sounds generic, inflated, chatbot-like, or clever-for-show so it reads as
+  natural human writing.
 license: MIT
 metadata:
   author: Oussama Haddouche <oussama1haddouche2@gmail.com>
@@ -46,15 +47,24 @@ related tells. Preserve meaning and facts. Match the genre's register.
    Do not "fix" absent problems.
 4. Decide voice policy from genre:
    - Essays, posts, narrative: restore personality where it fits (see Voice).
-   - Neutral docs, reference, procedural: cut slop only; do not inject personality.
+   - Neutral docs, reference, procedural, READMEs, product blurbs: cut slop
+     only; do not inject personality, wit, or "trust me" theater.
 5. Rewrite for concrete meaning and natural rhythm. Prefer specific claims over
    significance padding. Use "is"/"has"/plain verbs where a human would.
+   Prefer ordinary words for ordinary things (writing not prose, job lines not
+   bullets) unless the precise term earns its place. Do not "humanize" by
+   swapping in quirky casual synonyms (puffed up, mush, vibes) when the normal
+   word works. For blurbs: say what it does and when to use it. Delete lines
+   that only prove cleverness or integrity.
 6. Replace curly quotes with straight quotes (" ').
-7. Check the result:
+7. Check the result (cold read):
    - Sounds natural read aloud; sentence length varies
    - Specific details beat vague importance claims
-   - Tone matches the genre
+   - Tone matches the genre and nearby sibling copy when editing a list of blurbs
    - No chatbot manners, placeholders, or source-disclaimer theater
+   - You did not swap one tell for another (rule-of-three, negative parallelism,
+     performing cleverness, fancy words, or fake casual). If a line exists only
+     to sound sharp or "more human," cut it. Prefer the boring accurate word.
 8. Return the rewritten text, plus an optional brief change summary if the user
    is learning the patterns. Keep the reply focused on the rewrite; skip process
    narration about how the edit was done.
@@ -63,15 +73,21 @@ For a full before/after walkthrough, see `references/example.md`.
 
 ## Voice
 
-Avoiding AI patterns is half the job. Sterile, voiceless prose is another tell.
+Avoiding AI patterns is half the job. Sterile, voiceless writing is another tell.
+Overcorrecting into quirky slang is a third.
 
 **Soulless signs:** same sentence length throughout; only neutral reportage; no
 mixed feelings; no first person when the genre allows it; no humor or texture;
 reads like a press release.
 
+**Fake-casual signs:** thesaurus colloquialisms that nobody in this genre would
+pick ("puffed up" for inflated, "mush" for vague, "vibes" for tone); forced
+slang in READMEs and docs; personality sprinkled on to prove the text is human.
+
 **When the genre allows voice:** have opinions; vary rhythm; acknowledge
 complexity ("impressive and a little unsettling"); use "I" when it fits; let
-some mess in; be specific about feelings.
+some mess in; be specific about feelings. Personality must fit the piece—not
+be pasted on as a humanizer finish.
 
 **Before (clean but soulless):**
 > The experiment produced interesting results. The agents generated 3 million
@@ -89,36 +105,39 @@ some mess in; be specific about feelings.
 
 Consult `references/patterns.md` for words-to-watch, problems, and before/afters.
 
-| # | Pattern |
-|---|---------|
-| 1 | Significance / legacy inflation |
-| 2 | Vague "shaped the debate" claims |
-| 3 | Notability via outlet name-drops |
-| 4 | Sources "identify" the subject |
-| 5 | Vague "associated with" links |
-| 6 | Superficial -ing analyses |
-| 7 | Vague experts / opinion laundering |
-| 8 | Challenges + upbeat outlook endings |
-| 9 | Canned awards/recognition blocks |
-| 10 | AI vocabulary clusters (by era) |
-| 11 | Copula avoidance (serves as / boasts) |
-| 12 | Negative parallelisms (not X, but Y) |
-| 13 | Rule of three |
-| 14 | Elegant variation / synonym cycling |
-| 15 | False ranges (from X to Y) |
-| 16 | Formulaic em dashes |
-| 17 | Mechanical boldface |
-| 18 | `**Label:**` vertical lists |
-| 19 | Title Case headings |
-| 20 | Emoji decoration |
-| 21 | Curly quotes |
-| 22 | Chatbot collaborative voice |
-| 23 | Knowledge/source hedging theater |
-| 24 | Sycophantic tone |
-| 25 | Placeholder / template leftovers |
-| 26 | Filler phrases |
-| 27 | Excessive hedging |
-| 28 | Generic positive endings |
+| #   | Pattern                                   |
+| --- | ----------------------------------------- |
+| 1   | Significance / legacy inflation           |
+| 2   | Vague "shaped the debate" claims          |
+| 3   | Notability via outlet name-drops          |
+| 4   | Sources "identify" the subject            |
+| 5   | Vague "associated with" links             |
+| 6   | Superficial -ing analyses                 |
+| 7   | Vague experts / opinion laundering        |
+| 8   | Challenges + upbeat outlook endings       |
+| 9   | Canned awards/recognition blocks          |
+| 10  | AI vocabulary clusters (by era)           |
+| 11  | Copula avoidance (serves as / boasts)     |
+| 12  | Negative parallelisms (not X, but Y)      |
+| 13  | Rule of three                             |
+| 14  | Elegant variation / synonym cycling       |
+| 15  | False ranges (from X to Y)                |
+| 16  | Formulaic em dashes                       |
+| 17  | Mechanical boldface                       |
+| 18  | `**Label:**` vertical lists               |
+| 19  | Title Case headings                       |
+| 20  | Emoji decoration                          |
+| 21  | Curly quotes                              |
+| 22  | Chatbot collaborative voice               |
+| 23  | Knowledge/source hedging theater          |
+| 24  | Sycophantic tone                          |
+| 25  | Placeholder / template leftovers          |
+| 26  | Filler phrases                            |
+| 27  | Excessive hedging                         |
+| 28  | Generic positive endings                  |
+| 29  | Performing cleverness / integrity theater |
+| 30  | Unnecessary fancy / shop words            |
+| 31  | Fake casual / forced colloquialism        |
 
 Also fix weaker signals when present: travel-brochure adjectives, knowledge-cutoff
 one-liners, prompt-refusal leftovers.
@@ -133,6 +152,16 @@ one-liners, prompt-refusal leftovers.
 
 **After:**
 > The platform is a hub where teams share tools and post new work.
+
+### Product / README blurb
+
+**Before:**
+> Rewrites prose and vague bullets. No fake metrics, no "I led it" when you
+> didn't. Not for life advice or salary negotiation.
+
+**After:**
+> Works on CVs, LinkedIn, and portfolios. Helps turn vague job lines into clear
+> achievements a recruiter can understand.
 
 ### Full essay rewrite
 
@@ -156,14 +185,17 @@ See `references/example.md` for a multi-paragraph before/after with a change lis
 
 ## Troubleshooting
 
-| Problem | Cause | Fix |
-|---------|-------|-----|
-| No draft to edit | User invoked the skill without text or a path | Ask for the source text; do not generate filler |
-| Output still sounds flat | Only deleted AI words; left press-release rhythm | Restore voice for the genre; vary sentence length |
-| Output feels fake-casual | Injected slang, typos, or personality into neutral docs | Cut slop only; match the original register |
-| Meaning drifted | Significance padding replaced with new claims | Preserve facts; delete fluff instead of inventing detail |
-| Over-edited | Treated the pattern list as a ban list | Fix only patterns that appear; leave clean sentences alone |
-| User wanted feedback only | Rewrote when they asked for a review | Return notes keyed to pattern names; do not rewrite |
+| Problem                       | Cause                                                             | Fix                                                         |
+| ----------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- |
+| No draft to edit              | User invoked the skill without text or a path                     | Ask for the source text; do not generate filler             |
+| Output still sounds flat      | Only deleted AI words; left press-release rhythm                  | Restore voice for the genre; vary sentence length           |
+| Output feels fake-casual      | Injected slang, quirky synonyms, or personality into neutral docs | Use the normal word (inflated not puffed up); cut slop only |
+| Output still "AI but sharper" | Swapped inflation for clever won't-lists / mini anti-examples     | Cut performing cleverness; say the job in plain terms       |
+| Output still sounds "smart"   | Replaced fog with shop words (prose, bullets, leverage)           | Use the ordinary word unless precision needs the term       |
+| Blurb doesn't match siblings  | Over-edited one entry into a different voice                      | Match nearby register; same length energy                   |
+| Meaning drifted               | Significance padding replaced with new claims                     | Preserve facts; delete fluff instead of inventing detail    |
+| Over-edited                   | Treated the pattern list as a ban list                            | Fix only patterns that appear; leave clean sentences alone  |
+| User wanted feedback only     | Rewrote when they asked for a review                              | Return notes keyed to pattern names; do not rewrite         |
 
 ## Reference
 

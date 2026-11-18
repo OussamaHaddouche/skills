@@ -215,8 +215,10 @@ workarounds. In definitions, "X refers to..." is used when "X is..." is clearer.
 - It's not just X, it's Y
 - Not X, but Y / no X, no Y, just Z
 - Y rather than X (common in newer output)
+- Product-copy cousins: "No fake metrics, no inflated titles, no AI slop"
 
-**Problem:** Fake correction of a misconception the reader never had.
+**Problem:** Fake correction of a misconception the reader never had. In blurbs,
+stacked "no/won't" lines often pair with pattern 29 (performing cleverness).
 
 **Before:**
 > It's not just about the beat riding under the vocals; it's part of the
@@ -433,6 +435,96 @@ output you are asked to finalize.
 **After:**
 > The company plans to open two more locations next year.
 
+### 29. Performing cleverness / integrity theater
+
+**Forms:**
+- Stacked refusals: "No X, no Y, no Z" / "Won't A. Won't B. Won't C."
+- Mini anti-examples that stage a fake dialogue: turn "I helped" into "I led"
+- Quippy proof of virtue in product blurbs / READMEs / skill descriptions
+- Out-of-scope trailers on short blurbs: "Not for life advice or salary
+  negotiation." / "This is not legal advice." when siblings only say what the
+  thing *is* for
+- "Rewrites only what you can defend/back up" virtue clauses that add no product
+  fact
+- Lines that exist to sound sharp or trustworthy, not to add information
+
+**Problem:** After cutting classic AI fog, models often replace it with a
+different tell: performed wit and integrity. The reader of a README blurb
+wanted what it does and when to open it. Scope refusals belong in the skill
+body (or docs), not as a punchy closer. Humans writing a short blurb usually
+say what the thing does and stop.
+
+**Before:**
+> Digs for real achievements and rewrites only what you can defend. No fake
+> metrics, no "I led it" when you didn't. Not for life advice or salary
+> negotiation.
+
+**After:**
+> Works on CVs, LinkedIn, and portfolios. Helps turn vague job lines into clear
+> achievements a recruiter can understand.
+
+**Keep when real:** a concrete behavior note that changes how you use the tool
+("Won't edit your files unless you ask it to implement"). Cut when it's only
+branding a boundary.
+
+**Also watch:** parenthetical laundry lists of edge cases jammed into one
+sentence ("including risk and timeline trust, overqualified vibes, and…") when
+the surrounding blurbs stay short and plain.
+
+### 30. Unnecessary fancy / shop words
+
+**Problem:** The model picks a slightly elevated or in-group word when a plain
+one would do. Reads as trying to sound like a writer or an expert in a context
+that is just a README, UI string, or casual note.
+
+**Words to watch (when the audience doesn't need the term):**
+prose, bullets (for resume lines), leverage, utilize, facilitate, articulate,
+narrative, artifact, surface (as a verb), unpack, craft, delve, landscape,
+space (as in "in the X space"), messaging, framing, cadence, register (outside
+linguistics docs), "materials" when "CV" or "profile" is clearer
+
+**Keep when earned:** technical docs talking to practitioners ("ATS parse",
+"Boolean search"), or when the precise term prevents ambiguity.
+
+**Before:**
+> Rewrites prose so vague bullets become clear achievements.
+
+**After:**
+> Fixes writing so vague job lines become clear achievements.
+
+**Test:** Is this the normal word for this context, or a fancier synonym? If
+you'd swap mid-sentence for a simpler one, use the simpler one.
+
+### 31. Fake casual / forced colloquialism
+
+**Problem:** After being told to sound human, the model overcorrects. It swaps
+plain words for quirky informal ones to *perform* casualness. That is still a
+tell—especially in READMEs, docs, and product blurbs, where real humans use
+boring accurate words.
+
+**Opposite of pattern 30:** 30 is prestige elevation; 31 is thesaurus-slang
+dress-down. Both avoid the ordinary word.
+
+**Words / moves to watch:**
+puffed up (for inflated), mush (for vague), vibes (for tone/feel), crunchy,
+juicy, spicy (as metaphor for emphasis), "hits different", "low-key", "high-key",
+forced "weirdly X" stacks, cute metaphors that the surrounding copy never uses
+
+**Before:**
+> Reach for it when a draft feels generic, puffed up, or weirdly polite. When
+> your LinkedIn is mush.
+
+**After:**
+> Reach for it when a draft feels generic, inflated, or oddly polite. When your
+> LinkedIn is vague.
+
+**Keep when earned:** the writer's real voice in a personal essay, chatty blog,
+or dialogue—where that slang already fits the piece. Do not paste it onto
+neutral docs as a finishing coat.
+
+**Test:** Would this word appear in a careful human README, or only in a model
+trying not to sound like a model? Prefer the boring accurate word.
+
 ## Historical / weaker signals
 
 Still fix these when they appear, but do not treat them as proof of AI on their
@@ -464,18 +556,22 @@ draft content.
 
 ## Prefer human-like syntax
 
-When rewriting, lean toward constructions that are common in human prose and
+When rewriting, lean toward constructions that are common in human writing and
 underrepresented in LLM output:
 
 - Simple predicates: "is", "are", "has"
 - Plain verbs: wrote, moved, used, tried, died (not authored/relocated/utilized/
   attempted/passed away unless that register is earned)
+- Ordinary nouns for ordinary things (see pattern 30): writing not prose, job
+  lines not bullets, unless the precise term earns its place
+- Ordinary register for the genre (see pattern 31): inflated not puffed up;
+  vague not mush—unless that slang already belongs in the piece
 - Occasional blunt superlatives or specifics when true: "the only", "the first"
 - Natural qualifiers where you actually mean them: very, perhaps, tends to
 - Direct relationships over "associated with"
 
-Do not mechanically reverse every formal word. Just stop chasing elegant
-variation and prestige vocabulary for their own sake.
+Do not mechanically reverse every formal word. Stop chasing elegant variation,
+prestige vocabulary, *and* quirky casual synonyms for their own sake.
 
 ## Wikipedia-only (out of scope)
 

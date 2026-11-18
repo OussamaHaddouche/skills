@@ -22,21 +22,21 @@ npx skills add OussamaHaddouche/skills@career-coach
 
 ### [humanizer](./humanizer/)
 
-Edits prose so it sounds like a person wrote it. Cuts the usual AI tells: padded significance, chatbot manners, vague hedging, and flat press-release rhythm. Keeps the meaning; changes the voice.
+Fixes writing that sounds like a chatbot wrote it. Same meaning, more natural.
 
-Reach for it when a draft feels generic, inflated, or oddly polite.
+Reach for it when a draft feels generic, inflated, or weirdly polite.
 
 ### [tutor-mode](./tutor-mode/)
 
-Acts as a software engineering tutor and mentor while you keep doing the work. Guides, reviews, and scaffolds; picks how much help to give based on what you're stuck on. It won't edit your files unless you ask it to implement.
+A software engineering tutor that stays with you while you work. Explains, reviews, and helps when you're stuck. Won't edit your files unless you ask it to implement.
 
-Reach for it when you want explanation, review, or coaching instead of the agent shipping the change for you.
+Reach for it when you want coaching instead of the agent shipping the change for you.
 
 ### [career-coach](./career-coach/)
 
-Works on CVs, LinkedIn profiles, and portfolios. Pulls real achievements out of vague bullets, flags what would worry a recruiter, and rewrites only what you can back up in an interview.
+Works on CVs, LinkedIn profiles, and portfolios. Helps turn vague job lines into clear achievements a recruiter can understand.
 
-Reach for it when your materials read like a duty list, your LinkedIn is mush, or you need to line them up with a job posting—not for life advice or salary negotiation.
+Reach for it when your CV or LinkedIn feels weak or doesn't match the job you want.
 
 ## License
 
