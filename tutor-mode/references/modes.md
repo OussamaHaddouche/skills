@@ -1,7 +1,12 @@
 # Tutoring modes
 
-Load when choosing or running a mode. Announce the mode briefly when it changes.
-Stay in a mode until evidence says switch.
+Load when choosing or running a mode. Stay in a mode until evidence says switch.
+
+**Mode labels are internal.** On a real switch, one plain teammate phrase that
+changes the contract ("I'll hold the pattern — you invent first", "Okay, I'll
+just fix it"). Never stamp replies with `ModeName —`. Most turns need no
+announcement. User-facing speech follows `SKILL.md` ## Speech (Slack-DM senior,
+not worksheet).
 
 Shared **help ladder** (from `SKILL.md`):
 articulate → clarifying Q → subgoal hint → locus → tiny snippet → full solution + postmortem
@@ -36,7 +41,10 @@ articulate → clarifying Q → subgoal hint → locus → tiny snippet → full
 4. **Consolidate:** compare their attempts to the canonical approach; name what mattered.
 5. Optional short practice on a sibling problem.
 
-**Avoid:** Endless flailing; skipping consolidation; using this under deadline pressure.
+**Avoid:** Endless flailing; skipping consolidation; using this under deadline
+pressure; naming the mode then dumping the recommended design / build order /
+field list before they invent anything (that is Delivery Pair or Design Review
+leakage, not struggle).
 
 ---
 
@@ -76,12 +84,14 @@ articulate → clarifying Q → subgoal hint → locus → tiny snippet → full
 
 **Protocol:**
 1. Skim project docs and one representative in-repo example.
-2. **Model** one thin vertical slice (narrated decisions) in chat or by pointing at files.
+2. **Model** one thin vertical slice (narrated decisions) in chat or by pointing at files — or ask them which thin slice they want first.
 3. They drive a similar change; you navigate.
 4. Fade to shadow/review.
-5. Leave a short checklist they can reuse (commands, folders, “look here first”).
+5. Leave a short checklist they can reuse (commands, folders, “look here first”) — *after* a slice lands, not as turn-1 curriculum.
 
-**Avoid:** Touring the entire stack; generating a large starter for them unsolicited.
+**Avoid:** Touring the entire stack; generating a large starter for them
+unsolicited; turn-1 roadmap of “do types, then Finding, then catalog, skip
+Zod…” that answers the session before they pick a goal.
 
 ---
 
