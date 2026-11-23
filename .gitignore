@@ -3,3 +3,7 @@ Thumbs.db
 *.log
 .idea/
 .vscode/
+
+# Local skills CLI installs (this repo publishes skills; it is not a consumer)
+.agents/
+skills-lock.json
