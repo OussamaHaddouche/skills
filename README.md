@@ -22,9 +22,11 @@ npx skills add OussamaHaddouche/skills@career-coach
 
 ### [humanizer](./humanizer/)
 
-Fixes writing that sounds like a chatbot wrote it. Same meaning, more natural.
+Fixes writing that sounds like a chatbot wrote it — English or French. Same
+meaning, more natural. Supports rewrite and detect-only modes.
 
-Reach for it when a draft feels generic, inflated, or weirdly polite.
+Reach for it when a draft feels generic, inflated, oddly polite, or like French
+management boilerplate.
 
 ### [tutor-mode](./tutor-mode/)
 

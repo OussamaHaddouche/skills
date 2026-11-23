@@ -1,7 +1,11 @@
-# AI writing patterns
+# AI writing patterns (English)
 
-Catalog adapted from [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
-Descriptive, not a ban list. Fix only patterns that actually appear.
+Catalog adapted from [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing),
+with later social/LLM tells (32–38). Descriptive, not a ban list. Fix only
+patterns that actually appear. Severity tags (P0/P1/P2) appear on newer entries;
+use the skill's triage table for the rest.
+
+For French, use `patterns-fr.md` — do not translate this file.
 
 ## Content patterns
 
@@ -524,6 +528,103 @@ neutral docs as a finishing coat.
 
 **Test:** Would this word appear in a careful human README, or only in a model
 trying not to sound like a model? Prefer the boring accurate word.
+
+## Later social / LLM tells (32–38)
+
+### 32. Narrated candor / performed honesty (P1)
+
+**Forms:** "Let's be honest," "real talk," "here's the thing," "I want to be
+upfront," "two caveats I'd rather flag than let you discover later"
+
+**Problem:** The model announces honesty instead of stating the caveat. Keep
+real conflict-of-interest disclosure; cut the empty frame.
+
+**Before:**
+> Let's be honest — the migration will be painful. Here's the thing: most teams
+> underestimate the rollback plan.
+
+**After:**
+> The migration will be painful. Most teams underestimate the rollback plan.
+
+### 33. Lingering-attention / share-post openers (P1)
+
+**Forms:** "The line I keep coming back to," "I can't stop thinking about this,"
+"this has been rattling around in my head all week"
+
+**Problem:** Share-post theater that delays the point. Keep only when a concrete
+reason follows ("I keep coming back to exit-voice because it predicts who quits").
+
+**Before:**
+> I can't stop thinking about this launch. The line I keep coming back to is
+> that distribution beat product.
+
+**After:**
+> Distribution beat product on this launch.
+
+### 34. Hedge-stacked predictions (P1)
+
+**Forms:** "could potentially," "may eventually," "might possibly over time"
+
+**Problem:** Each hedge cancels the next. Pick one modality or a falsifiable claim.
+
+**Before:**
+> This could potentially eventually unlock new growth vectors.
+
+**After:**
+> This may raise activation by double digits next quarter — or it may not; we
+> have not measured it yet.
+
+(Or cut if the source has no real prediction.)
+
+### 35. Infomercial engagement hooks (P1)
+
+**Forms:** "The catch?", "The kicker?", "Plot twist:", "And here's where it
+gets interesting."
+
+**Problem:** Fake suspense before a mundane claim. Delete the hook; state the claim.
+
+**Before:**
+> The catch? Pricing starts at $12/seat.
+
+**After:**
+> Pricing starts at $12/seat.
+
+### 36. AI-tool fingerprints (P0)
+
+**Forms:**
+- Chatbot citation markup: `citeturn0search0`, `oai_citation`,
+  `contentReference[oaicite:0]`
+- Tracking params: `utm_source=chatgpt.com`, `utm_source=copilot.com`
+- Unfilled placeholders already covered in pattern 25
+
+**Fix:** Strip markup tokens and AI-referrer UTM params; keep the URL if the
+link still matters.
+
+### 37. Hashtag stuffing (P0 on LinkedIn / investor posts; P2 on blogs)
+
+**Problem:** Trailing blocks of generic tags (`#AI #Innovation #Future #Leadership`).
+Rare in careful human posts; common in LLM social output at 6+ tags.
+
+**Fix:** Drop them, or keep 1–2 specific tags that match the post.
+
+### 38. Bare noun-phrase bullet dumps (P1)
+
+**Problem:** Five or more short adj+noun bullets with no verbs or numbers:
+`Stable performance / Reliable infrastructure / Optimized workflows…`
+
+**Fix:** Convert to prose, or rewrite each item as a full claim with a verb and
+a concrete detail. Carve-out: changelogs, parameter lists, ingredient lists.
+
+**Before:**
+> - Seamless integration
+> - Robust scalability
+> - Enhanced visibility
+> - Streamlined collaboration
+> - Holistic insights
+
+**After:**
+> The dashboard shows error rates per service and pages Slack when p95 latency
+> exceeds 400ms. It ships a Terraform module for AWS and GCP.
 
 ## Historical / weaker signals
 
